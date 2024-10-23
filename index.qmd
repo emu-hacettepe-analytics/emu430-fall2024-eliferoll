@@ -3,10 +3,10 @@ title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-Hello! My name is xxx xxxx.
+Hello! My name is Ayşe Elif Erol!!
 
 This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
 
-This is our template.
+![](https://i.pinimg.com/originals/86/25/6f/86256fedd537f6883fa9d524afd393e6.gif){fig-align="right" width="381"}

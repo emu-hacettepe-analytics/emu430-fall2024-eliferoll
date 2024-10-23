@@ -1,30 +1,30 @@
 ---
 title: "About Me"
-sidebar: false 
+sidebar: false ---
 ---
 
-# Education
+## Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
-
-# Work Experience
-
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+-   B.S., Industrial Engineering, *Hacettepe University, Turkey, 2020 - ongoing.*
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+-   The Ministry of Transport and Infrastructure, *Industrial Engineer, 2023*
 
-2.  Firm bbb, position yyy, year yyy
+-   Turkish Aerospace (TAI), *Production Planning & Controling Department Candidate Engineer Intern, 2023-2024*
 
-# Projects
+-   Turkish Aerospace (TAI), *Production Planning & Controling Department Summer Intern, 2024*
 
-# Competencies
+## Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, SQL , Excel
 
-# Hobbies
+## Hobbies
+
+Language Learning
+
+## CV
+
+[[*Here!*]{.underline}](https://drive.google.com/file/d/13b3NFxfHTkZFs2ksRLtkq-lxBcUCCk02/view?usp=sharing)
+
+![](https://i.gifer.com/origin/e3/e3e3b4b39144906a9199db73beaf5c3e_w200.gif){fig-align="left"}

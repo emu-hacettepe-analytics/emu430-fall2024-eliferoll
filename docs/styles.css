@@ -1,1 +1,16 @@
-/* css styles */
+body {
+  background-color:#EFD9ED; 
+}
+body {
+  font-family: 'Calibri', cursive, sans-serif;
+  color: #6F3570;
+}
+h1, h2, h3 {
+  color: #9C64DA; 
+  text-shadow: 2px 2px 5px #E19FD6; 
+}
+.btn {
+  background-color:#FED2F1 ; 
+  border-color:#AF59B1; 
+  color:#B9ACC8 ;
+}

@@ -1,15 +1,72 @@
----
-title: "Assignment 1"
----
-
-# Assignment 1
+## Assignment 1
 
 ```{r}
-1 + 1
+library(dslabs)
+data("polls_us_election_2016")
+head(polls_us_election_2016, 10)
+sum(is.na(polls_us_election_2016))
+for (i in 8:15) {
+     polls_us_election_2016[[i]] <- lapply(polls_us_election_2016[[i]], function(a) {
+         ifelse(is.na(a), 2002, a)
+     })
+}
+for (i in c(1, 4, 5 ,7)) {
+     polls_us_election_2016[[i]] <- lapply(polls_us_election_2016[[i]], function(b){
+         ifelse(is.na(b), 'ELIF', b)
+     })
+}
+
+head(polls_us_election_2016, 10)
+sum(is.na(polls_us_election_2016))
+
 ```
 
-My first assignment has two parts.
+I've searched manually and with different codes as to why sum function gives 1 in the last part. However there's no other NA value left in the dataframe.
 
 ## (a)
 
+The video's main focus is on industrial engineering and its connection to data science. Several techniques are suggested, including machine learning, data analytics, and optimization. It is emphasized that mathematical modeling and simulation are important industrial engineering applications. With examples of inventory control, process optimization and demand forecasting; how to integrate the theoretical knowledge of data analyzing into real-life problems. These real-life problems include; timber processing and electricity market trends, online-retail forecasting. Traditional and deep machine learning, AI in decision-making are also mentioned.
+
+Open-Ended:
+
+What distinguishes traditional machine learning from deep machine learning?
+
+Answer: Attribute Extraction (Öznitelik Çıkarımı)
+
+Multiple-choice:
+
+According to the speaker, what is a significant challenge for demand forecasting using machine learning?
+
+A\) Ensuring the model is complex enough to solve all problems
+
+B\) Handling the variability and special conditions in real-world data
+
+C\) Always choosing deep learning over traditional methods
+
+D\) Avoiding the use of any statistical models
+
+Answer: B
+
 ## (b)
+
+library(dslabs)
+
+data("polls_us_election_2016") head(polls_us_election_2016, 10)
+
+sum(is.na(polls_us_election_2016))
+
+for (i in 8:15) {
+
+polls_us_election_2016\[\[i\]\] \<- lapply(polls_us_election_2016\[\[i\]\], function(a) {
+
+ifelse(is.na(a), 2002, a) }) }
+
+for (i in c(1, 4, 5 ,7)) {
+
+polls_us_election_2016\[\[i\]\] \<- lapply(polls_us_election_2016\[\[i\]\], function(b){
+
+ifelse(is.na(b), 'ELIF', b) }) }
+
+head(polls_us_election_2016, 10)
+
+sum(is.na(polls_us_election_2016))
